@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hub spot Test automtion regression suite"
+	thread-count="3" parallel="tests" verbose="3">
+	<listeners>
+		<listener
+			class-name="com.qa.orangeHRM.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.orangeHRM.listeners.TestAllureListener" />
+		<listener
+			class-name="com.qa.orangeHRM.listeners.ScreenshotListener" />
+		<listener
+			class-name="com.qa.orangeHRM.listeners.TesultsListener" />
+	</listeners>
+
+	<test name="Login page Test - FF">
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.qa.orangeHRM.tests.LoginPageTest" />
+			<class name="com.qa.orangeHRM.tests.HomePageTest" />
+		</classes>
+
+
+	</test>
+
+	<test name="Login page Test - Chrome">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.qa.orangeHRM.tests.LoginPageTest" />
+		</classes>
+
+	</test>
+
+
+</suite>

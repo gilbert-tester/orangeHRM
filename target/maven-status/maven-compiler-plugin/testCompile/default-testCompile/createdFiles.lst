@@ -1,0 +1,5 @@
+com/qa/orangeHRM/tests/LoginPageTest.class
+mainMethod/TestOrange.class
+com/qa/orangeHRM/tests/PIMPageTest.class
+com/qa/orangeHRM/tests/AddEmployeeTest.class
+com/qa/orangeHRM/tests/HomePageTest.class

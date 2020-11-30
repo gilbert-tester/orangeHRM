@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 13.041 s <<< FAILURE! - in TestSuite
+homePageSetup(com.qa.orangeHRM.tests.HomePageTest)  Time elapsed: 0.105 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.prop" is null
+	at com.qa.orangeHRM.tests.HomePageTest.homePageSetup(HomePageTest.java:15)
+
