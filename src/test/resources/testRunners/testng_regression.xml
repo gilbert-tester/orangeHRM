@@ -8,8 +8,8 @@
 			class-name="com.qa.orangeHRM.listeners.ExtentReportListener" />
 		<listener
 			class-name="com.qa.orangeHRM.listeners.TestAllureListener" />
-		<listener
-			class-name="com.qa.orangeHRM.listeners.ScreenshotListener" />
+	<!-- <listener
+			class-name="com.qa.orangeHRM.listeners.ScreenshotListener" />  -->	
 		<listener
 			class-name="com.qa.orangeHRM.listeners.TesultsListener" />
 	</listeners>
