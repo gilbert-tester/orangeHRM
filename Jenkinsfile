@@ -13,6 +13,7 @@ agent any
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     sh "mvn clean install"
+                   // bat "mvn clean install" //(bat for windows pc)
                 }
             }
         }
